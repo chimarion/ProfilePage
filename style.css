@@ -1,0 +1,64 @@
+body {
+    background-image: url(images/008\ Rainy\ Ashville.png );
+}
+
+.pic {
+    width: 400px;
+    height: 100%;
+    float: right;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+
+.aboutMe {
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+.socialmedia {
+    display: flex;  
+    flex-direction: row;
+    float: right;
+    padding-right: 5%;
+    padding-top: 3%;
+}
+
+
+.contactMe{
+    display: flex;
+
+    min-height: 10px;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 15%;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#form{
+    display: block;
+    width: 350px;
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;  
+    background-color: rgb(213, 200, 216);
+}
+
+#submit {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: rgb(213, 200, 216);
+      
+}
+
+#textarea {
+    padding: 13px;
+    background-color: rgb(213, 200, 216);
+    border-radius: 5px 5px 5px 5px;
+}
+
+h2, marquee{
+    color: darkmagenta;
+}
+
